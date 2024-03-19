@@ -40,7 +40,7 @@ form.addEventListener('submit', e => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  // Show the preview modal when the page loads
-  document.querySelector(".preview-modal").style.display = "block";
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   // Show the preview modal when the page loads
+//   document.querySelector(".preview-modal").style.display = "block";
+// });
