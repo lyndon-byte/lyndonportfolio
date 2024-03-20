@@ -39,6 +39,24 @@ form.addEventListener('submit', e => {
 
 });
 
+function showPopupScreen(){
+
+  var width = window.screen.width * 0.75;
+
+// Calculate the height of the window to cover 75% of the screen
+  var height = window.screen.height * 0.75;
+
+  // Open a new window with the calculated width and height
+  var popup = window.open('', 'popup', 'width=' + width + ',height=' + height);
+
+  // Check if the popup was blocked
+  if (!popup) {
+  alert('Please allow pop-ups for this site to see the example.');
+  } else {
+  // Add content to the popup window
+  popup.document.write('<html><head><title>Popup Window</title></head><body><h1>Popup Window Content</h1></body></html>');
+} 
+}
 
 // document.addEventListener("DOMContentLoaded", function() {
 //   // Show the preview modal when the page loads
