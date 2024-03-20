@@ -41,21 +41,29 @@ form.addEventListener('submit', e => {
 
 function showPopupScreen(){
 
+
+ 
   var width = window.screen.width * 0.75;
 
-// Calculate the height of the window to cover 75% of the screen
+  // Calculate the height of the window to cover 75% of the screen
   var height = window.screen.height * 0.75;
 
-  // Open a new window with the calculated width and height
-  var popup = window.open('', 'popup', 'width=' + width + ',height=' + height);
+  // Calculate the left position to center the window horizontally
+  var left = (window.screen.width - width) / 2;
+
+  // Calculate the top position to center the window vertically
+  var top = (window.screen.height - height) / 2;
+
+  // Open a new window with the calculated dimensions and position
+  var popup = window.open('about:blank', 'popup', 'width=' + width + ',height=' + height + ',left=' + left + ',top=' + top);
 
   // Check if the popup was blocked
   if (!popup) {
-  alert('Please allow pop-ups for this site to see the example.');
+      alert('Please allow pop-ups for this site to see the example.');
   } else {
-  // Add content to the popup window
-  popup.document.write('<html><head><title>Popup Window</title></head><body><h1>Popup Window Content</h1></body></html>');
-} 
+      // Add content to the popup window
+      popup.document.write('<html><head><title>Popup Window</title></head><body><h1>Popup Window Content</h1></body></html>');
+  }
 }
 
 // document.addEventListener("DOMContentLoaded", function() {
