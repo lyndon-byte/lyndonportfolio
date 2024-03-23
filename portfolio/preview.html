@@ -16,6 +16,19 @@
 </div>
 <script>
 
+  if ('visibilityState' in document) {
+    // Listen for visibility change events
+    document.addEventListener('visibilitychange', function() {
+        // Check if the page is visible
+        if (document.visibilityState === 'visible') {
+            // Activate the preview page
+            window.open('your-preview-page-url', '_blank', 'height=75%,width=100%,top=0,left=0');
+        }else{
+
+          
+        }
+    });
+  }
  
 
 </script>
