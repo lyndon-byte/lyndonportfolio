@@ -6,220 +6,497 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Lyndon Cuartero</title>
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/219/219983.png" />
+
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <!-- Core theme CSS -->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
-    <body class="d-flex flex-column h-100">
+
+    <body class="d-flex flex-column h-100 bg-light">
+
         <main class="flex-shrink-0">
+
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Lyndon Cuartero</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+
+                   <a class="navbar-brand d-flex flex-column lh-sm" href="index.html">
+    
+                        <span class="fw-bolder text-primary brand-name">
+                            Lyndon Cuartero
+                        </span>
+
+                        <span class="text-uppercase text-muted fw-semibold brand-role">
+                            Full Stack Developer • AI Automation Engineer
+                        </span>
+
+                    </a>
+
+                  
                 </div>
             </nav>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Front End &middot; Back End &middot;Web Developer</div></div>
-                                <div class="fs-3 fw-light text-muted">I can help your business to</div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Get online and grow fast</span></h1>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="./preview.html">Resume</a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-7">
-                            <!-- Header profile picture-->
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-primary-to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="https://freepngimg.com/save/22193-adorable-cat/474x532" alt="..." />
-                                    <div class="dots-1">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-2">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-3">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                    <div class="dots-4">
-                                        <!-- SVG Dots-->
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
-                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
-                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
-                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
-                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
-                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
-                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
-                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
-                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
-                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
-                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
-                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
-                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
-                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
-                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
-                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
-                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
-                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
-                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
-                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
-                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
-                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
-                                            </g>
-                                        </svg>
-                                        <!-- END of SVG dots-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-3">
+                            <span class="text-gradient d-inline">Projects</span>
+                        </h1>
+
+                        <p class="text-muted">
+                            Selected web applications, AI workflow systems, and internal automation tools.
+                        </p>
                     </div>
-                </div>
-            </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
+
                     <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Lyndon Cuartero and i am knowledgeable in front end and back end development of web applications</p>
-                                <p class="text-muted">I've learned newest approach and technologies to develop a dynamic web application to help your business grow</p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="https://www.facebook.com/profile.php?id=100014130277302"><i class="bi bi-facebook"></i></a>
-                                    <a class="text-gradient" href="https://github.com/lyndon-byte"><i class="bi bi-github"></i></a>
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+
+                            <!-- Project Card 1 -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="align-items-center">
+                                        <div class="p-5">
+
+                                            <div class="project-badge">
+                                                <i class="bi bi-code-slash"></i>
+                                                Full Stack Web Application
+                                            </div>
+
+                                            <h2 class="fw-bolder">AI Voice Agent Platform</h2>
+
+                                            <p class="mt-3 text-muted">
+                                              This AI voice agent platform I created, called TalkingToEleven, lets you deploy intelligent AI voice agents in minutes.
+                                              It delivers natural conversations, real-time responses, and zero infrastructure overhead.
+                                            </p>
+
+                                            <div class="tech-stack mt-4">
+
+                                                <a href="https://elevenlabs.io/api" target="_blank">
+                                                    ElevenLabs AI API
+                                                </a>
+
+                                                <a href="https://laravel.com" target="_blank">
+                                                    Laravel (PHP Web Framework)
+                                                </a>
+
+                                                <a href="https://react.dev" target="_blank">
+                                                    React JS (Javascript Framework)
+                                                </a>
+
+                                                 <a href="https://www.postgresql.org" target="_blank">
+                                                    PostgresSQL
+                                                </a>
+
+                                                <a href="https://n8n.io" target="_blank">
+                                                    n8n
+                                                </a>
+
+                                            </div>
+
+                                            <div class="project-links">
+
+
+                                                <p>
+                                                    Github Repo / Source Code:
+                                                    <a href="https://github.com/lyndon-byte/ai-voice-agent">
+                                                       &nbsp; https://github.com/lyndon-byte/ai-voice-agent
+                                                    </a>
+                                                </p>
+
+                                                <p>
+                                                    Loom Demo:
+                                                    <a href="https://www.loom.com/share/53629d872ad04b92aa820c5457dec0fe">
+                                                       &nbsp; https://www.loom.com/share/53629d872ad04b92aa820c5457dec0fe
+                                                    </a>
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
+
+                            <!-- Project Card 2 -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="align-items-center">
+                                        <div class="p-5">
+
+                                            <div class="project-badge">
+                                                <i class="bi bi-kanban"></i>
+                                                Chrome Extension App
+                                            </div>
+
+                                            <h2 class="fw-bolder">AI-Powered Raw Voice Notes to Structured Emails</h2>
+
+                                            <p class="mt-3 text-muted">
+                                              a AI-powered Chrome extension application that transforms unstructured voice note transcriptions into clean, professional, and well-formatted emails automatically.
+                                              It extracts intent, organizes the content into a proper email structure, refines grammar and tone, and generates ready-to-send emails in seconds.
+                                            </p>
+
+                                            <div class="tech-stack mt-4">
+
+                                                <a href="https://ai-sdk.dev/docs/introduction" target="_blank">
+                                                    Vercel AI SDK
+                                                </a>
+
+                                                <a href="https://developers.openai.com/api/docs" target="_blank">
+                                                    Open AI API
+                                                </a>
+
+                                                <a href="https://react.dev" target="_blank">
+                                                    React JS (Javascript Framework)
+                                                </a>
+
+                                                <a href="https://expressjs.com" target="_blank">
+                                                    Express JS (Backend Web Framework)
+                                                </a>
+
+
+                                            </div>
+
+
+                                            <div class="project-links">
+
+
+                                                <p>
+                                                    Github Repo / Source Code:
+                                                    <a href="https://github.com/lyndon-byte/ai-voice-note-to-email-chrome-ext-app">
+                                                       &nbsp; https://github.com/lyndon-byte/ai-voice-note-to-email-chrome-ext-app
+                                                    </a>
+                                                </p>
+
+                                                <p>
+                                                    Loom Demo:
+                                                    <a href="https://www.loom.com/share/53629d872ad04b92aa820c5457dec0fe">
+                                                       &nbsp; https://www.loom.com/share/1c7f23a003b94f3f867e6446b39ded43
+                                                    </a>
+                                                </p>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <img class="img-fluid" src="./assets/voice-note-chrome-extension.PNG" alt="Osiris Preview" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Card 3 -->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="align-items-center">
+                                        <div class="p-5">
+
+                                            <div class="project-badge">
+                                                <i class="bi bi-kanban"></i>
+                                                Mobile App
+                                            </div>
+
+                                            <h2 class="fw-bolder">AI-Powered Calorie Estimator</h2>
+
+                                            <p class="mt-3 text-muted">
+                                                This Mobile app i created, called kaloreea is an application that uses artificial intelligence to estimate the calorie content 
+                                                of meals based on images of food. It analyzes ingredients, portion sizes, 
+                                                and nutritional patterns to provide quick and approximate calorie breakdowns for better dietary tracking and decision-making.
+                                            </p>
+
+                                            <div class="tech-stack mt-4">
+
+                                                <a href="https://reactnative.dev" target="_blank">
+                                                    React Native
+                                                </a>
+
+                                                <a href="https://developers.openai.com/api/docs" target="_blank">
+                                                    Open AI API
+                                                </a>
+
+                                                <a href="https://expo.dev" target="_blank">
+                                                   Expo
+                                                </a>
+
+                                                <a href="https://expressjs.com" target="_blank">
+                                                    Express JS (API)
+                                                </a>
+
+                                                <a href="https://laravel.com/docs/13.x" target="_blank">
+                                                    Laravel
+                                                </a>
+
+
+                                            </div>
+
+
+                                            <div class="project-links">
+
+
+                                                <p>
+                                                    Github Repo / Source Code (Front End):
+                                                    <a href="https://github.com/lyndon-byte/kaloreea-mobile">
+                                                       &nbsp; https://github.com/lyndon-byte/kaloreea-mobile
+                                                    </a>
+                                                </p>
+
+                                                <p>
+                                                    Github Repo / Source Code (Back End):
+                                                    <a href="https://github.com/lyndon-byte/kaloorea">
+                                                       &nbsp; https://github.com/lyndon-byte/kaloorea
+                                                    </a>
+                                                </p>
+
+                                              
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <img class="img-fluid" src="./assets/kaloreea.PNG" alt="Osiris Preview" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- AI Agents Section -->
+                            <div class="mb-4">
+                                <h2 class="fw-bolder text-center mb-4">
+                                    AI Agents & Internal Automation Systems
+                                </h2>
+
+                                <p class="text-center text-muted mb-5">
+                                    Proprietary AI-powered systems and workflow automations developed for internal company operations.
+                                </p>
+                            </div>
+
+                            <!-- AI Agent Cards -->
+                            <div class="row g-4">
+
+                                <!-- Agent 1 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-robot"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">
+                                                AI Email Assistant Agent
+                                            </h4>
+
+                                            <p class="text-muted mt-3">
+                                                Developed an AI-powered email generation and response assistant
+                                                capable of transforming raw voice note transcriptions into
+                                                professionally structured business emails with customizable tone,
+                                                formatting, and contextual rewriting.
+                                            </p>
+
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Agent 2 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-diagram-3"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">
+                                                Multi-Agent Workflow Orchestrator
+                                            </h4>
+
+                                            <p class="text-muted mt-3">
+                                                Designed and implemented multi-agent workflow systems with
+                                                task decomposition, chained execution pipelines, retry logic,
+                                                fallback handling, and automated routing for business process automation.
+                                            </p>
+
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Agent 3 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-chat-dots"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">
+                                                Conversational Support AI
+                                            </h4>
+
+                                            <p class="text-muted mt-3">
+                                                Built internal conversational AI tools capable of handling
+                                                customer inquiries, knowledge retrieval, contextual responses,
+                                                and workflow-triggered actions integrated with company systems.
+                                            </p>
+
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Agent 4 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-cpu"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">
+                                                Internal Process Automation Agent
+                                            </h4>
+
+                                            <p class="text-muted mt-3">
+                                                Engineered AI-assisted automation systems for repetitive
+                                                operational tasks including data processing, CRM workflows,
+                                                API synchronization, notifications, and internal productivity pipelines.
+                                            </p>
+
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-ui-checks"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">AI-Powered Questionnaire Generator</h4>
+
+                                            <p class="text-muted mt-3">
+                                                Generates structured questionnaires and web forms from user instructions.
+                                                It converts requirements into dynamic form logic for surveys, lead capture,
+                                                and data collection workflows.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-graph-up-arrow"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">AI Business Estimator & Strategy Advisor</h4>
+
+                                            <p class="text-muted mt-3">
+                                                Analyzes client business inputs and generates AI adoption strategies,
+                                                automation opportunities, and projected operational impact to improve
+                                                scalability and efficiency.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-chat-dots"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">AI Agent Builder (UChat Integration)</h4>
+
+                                            <p class="text-muted mt-3">
+                                                Builds and manages AI chatbots using UChat, supporting conversational flows,
+                                                automation triggers, and API integrations for client-facing and internal use.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-diagram-3"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">End-to-End Client Onboarding Automation</h4>
+
+                                            <p class="text-muted mt-3">
+                                                Fully automated onboarding pipeline covering payments, invoice generation,
+                                                contract creation, document auditing, and CRM synchronization using Monday.com.
+                                                Automatically assigns clients to CSMs based on status updates.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-md-6">
+                                    <div class="card border-0 shadow rounded-4 h-100 agent-card">
+                                        <div class="card-body p-4">
+
+                                            <div class="agent-icon mb-4">
+                                                <i class="bi bi-file-earmark-text"></i>
+                                            </div>
+
+                                            <h4 class="fw-bold">Document Automation System</h4>
+
+                                            <p class="text-muted mt-3">
+                                                Automates generation of contracts, proposals, and business documents
+                                                using PandaDoc and Bunny Docs, with dynamic data injection and
+                                                workflow-based approvals.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Lyndon Cuartero Portfolio Website 2024</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="/contact.html">Contact Me</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-       
+
         
-          
-          <!-- The JS SDK Login Button -->
-          
-          <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-          </fb:login-button>
-          
-          <div id="status">
-          </div>
-          
-          <!-- Load the JS SDK asynchronously -->
-          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+        </main>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
